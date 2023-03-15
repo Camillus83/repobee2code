@@ -31,13 +31,13 @@ Aby uruchomić aplikację, należy wykonać następujące kroki:
 1. Sklonowanie repozytorium z projektem,
 
    ```bash
-   git clone <adres>
+   git clone git@github.com:Camillus83/repobee2code.git
    ```
 
 2. Przejście do katalogu z projektem,
 
    ```bash
-   cd bee2code-task
+   cd repobee2code
    ```
 
 3.  zmiana wartości pola `KAFKA_ADVERTISED_HOST_NAME` w docker-compose.yml aby pasował do adresu IP hosta dockera. (Nie używać localhost ani 127.0.0.1 jeśli chcesz uruchomić wielu brokerów.)
